@@ -5,29 +5,29 @@ const AIAgentSlide = () => {
   const agentTraits = [
     {
       emoji: "🎯",
-      title: "Specialiserad",
-      description: "Expert på EN specifik uppgift",
+      title: "Måldriven",
+      description: "Jobbar självständigt mot uppsatta mål",
       color: "bg-blue-100",
       gradient: "from-blue-400/20 to-blue-300/20"
     },
     {
-      emoji: "🧠",
-      title: "Smart",
-      description: "Fattar egna beslut inom sitt område",
+      emoji: "🛠️",
+      title: "Verktygsanvändare",
+      description: "Kan använda olika verktyg för att lösa uppgifter",
       color: "bg-purple-100",
       gradient: "from-purple-400/20 to-purple-300/20"
     },
     {
-      emoji: "🔄",
-      title: "Interaktiv",
-      description: "Samarbetar med andra agenter",
+      emoji: "🤝",
+      title: "Samarbetsvillig",
+      description: "Jobbar effektivt med andra agenter",
       color: "bg-green-100",
       gradient: "from-green-400/20 to-green-300/20"
     },
     {
-      emoji: "📝",
-      title: "Följsam",
-      description: "Följer dina instruktioner",
+      emoji: "🌍",
+      title: "Interaktiv",
+      description: "Samspelar aktivt med sin omgivning",
       color: "bg-yellow-100",
       gradient: "from-yellow-400/20 to-yellow-300/20"
     }
@@ -45,7 +45,7 @@ const AIAgentSlide = () => {
         </div>
         
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Tänk dig en smart digital expert som är GRYM på EN sak...
+        Ett autonomt system som jobbar mot ett mål genom att interagera med sin omgivning...
         </p>
       </div>
 
@@ -79,7 +79,7 @@ const AIAgentSlide = () => {
       {/* Example Box */}
       <div className="bg-blue-50 p-4 rounded-xl shadow-md text-center">
         <p className="text-lg">
-          Som en expert-konsult: Hellre en agent som är EXPERT på research än en som är "okej" på allt! 🎯
+        Tänk dig en digital assistent som självständigt hittar bästa vägen till målet! 🎯
         </p>
       </div>
     </div>
