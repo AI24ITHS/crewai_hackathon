@@ -53,7 +53,12 @@ CrewAI is a framework for orchestrating role-playing AI agents. This guide provi
    crewai create crew <project_name>
    ```
 
-5. **Run Project**
+5. **Create Project**
+   ```bash
+   cd <project_name>
+   ```
+
+6. **Run Project**
    ```bash
    crewai run
    ```
@@ -85,15 +90,20 @@ CrewAI is a framework for orchestrating role-playing AI agents. This guide provi
 
 4. **Install CrewAI**
    ```bash
-   pip install 'crewai[tools]'
+   pip install crewai[tools]
    ```
 
 4. **Create Project**
    ```bash
    crewai create crew <project_name>
    ```
-
+   
 6. **Run Project**
+   ```bash
+   cd <project_name>
+   ```
+
+7. **Run Project**
    ```bash
    crewai run
    ```
