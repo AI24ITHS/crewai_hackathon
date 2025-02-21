@@ -86,7 +86,7 @@ const App = () => {
       number: 2,
       theme: "Star",
       emoji: "🌟",
-      members: ["Isak Forsberg", "Lucas Lindgren", "Viktoria Wisenfelt", "Arezo Hazara jafari"],
+      members: ["Isak Forsberg", "Lukas Bråkenhielm", "Viktoria Wisenfelt", "Arezo Hazara jafari"],
       gradientFrom: "from-yellow-400",
       gradientVia: "via-orange-400",
       gradientTo: "to-red-400",
@@ -96,7 +96,7 @@ const App = () => {
       number: 3,
       theme: "Rocket",
       emoji: "🚀",
-      members: ["Bagher Hassani", "Zainab Adnan", "David Rydman", "Alexander Suleymanov"],
+      members: ["Bagher Hassani", "Zainab Adnan", "David Rydman", "David Izquierdo Puentes"],
       gradientFrom: "from-blue-400",
       gradientVia: "via-purple-400",
       gradientTo: "to-red-400",
@@ -106,7 +106,7 @@ const App = () => {
       number: 4,
       theme: "Lightning",
       emoji: "⚡️",
-      members: ["Ludvig Haglund", "Arvid Johansson", "Belle Sangthong", "Lukas Bråkenhielm"],
+      members: ["Olov Olsson", "Belle Sangthong", "Lucas Lindgren"],
       gradientFrom: "from-yellow-400",
       gradientVia: "via-blue-400",
       gradientTo: "to-purple-400",
@@ -116,7 +116,7 @@ const App = () => {
       number: 5,
       theme: "Crown",
       emoji: "👑",
-      members: ["Mikael Anttila-Eriksson", "John Kinell", "Joel Söderberg", "Ellen Grefberg"],
+      members: ["Mikael Anttila-Eriksson", "Joel Söderberg", "Arvid Johansson"],
       gradientFrom: "from-yellow-400",
       gradientVia: "via-amber-400",
       gradientTo: "to-orange-400",
@@ -126,22 +126,12 @@ const App = () => {
       number: 6,
       theme: "Heart",
       emoji: "💫",
-      members: ["Jonas Johnsson", "Diana Molinsky", "Johan Enstam", "Carl Daag"],
+      members: ["Jonas Johnsson", "Olivia Reponen", "Carl Daag"],
       gradientFrom: "from-pink-400",
       gradientVia: "via-red-400",
       gradientTo: "to-rose-400",
       icon: Heart
     },
-    {
-      number: 7,
-      theme: "Music",
-      emoji: "✨",
-      members: ["Olof Olsson", "Pontus Grähs", "Olivia Reponen", "David Izquierdo Puentes", "Sofia Wiktorsson"],
-      gradientFrom: "from-purple-400",
-      gradientVia: "via-blue-400",
-      gradientTo: "to-indigo-400",
-      icon: Music
-    }
   ];
 
   // Define all slides including group slides
