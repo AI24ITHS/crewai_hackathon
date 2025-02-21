@@ -116,7 +116,7 @@ const App = () => {
       number: 5,
       theme: "Crown",
       emoji: "👑",
-      members: ["Mikael Anttila-Eriksson", "Joel Söderberg", "Arvid Johansson"],
+      members: ["Mikael Anttila-Eriksson", "Joel Söderberg", "Arvid Johansson", "Gabriella Sandberg"],
       gradientFrom: "from-yellow-400",
       gradientVia: "via-amber-400",
       gradientTo: "to-orange-400",
