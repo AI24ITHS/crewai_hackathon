@@ -1,0 +1,43 @@
+research_task:
+  description: >
+    1. Kolla innehållet på de här webbsidorna: {webpages} 
+    Skapa dig en förståelse för vad det handlar om.  
+    2. Utifrån det du fick fram ovan, samla information om dessa aspekter av {topic} och sammanfatta
+    det i tio punkter som ger olika aspekter eller ämnesområden inom {topic}. Skriv på svenska.
+    Glöm inte att dina läsare är vuxna studenter som är nya inom området. 
+    Försäkra dig om att dina punkter är intressanta och relevanta med tanke på att det är år 2025.
+  expected_output: >
+    En lista med tio punkter som ger en bra översikt över det viktigaste inom {topic} utifrån 
+    informationen du hämtat från {webpages}.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Ta emot listan på askpekter/ämnen inom {topic} och utforma ett studiematerial till dina studenter, 
+    med ingående information och förklaringar om varje punkt. Gå igenom begrepp och koncept och ge 
+    gärna exempel på tillämpningar när det är relevant. Skriv på svenska.
+    Studiematerialet ska vara detaljerat, lättbegripligt och pedagogiskt. 
+  expected_output: >
+    En matig studieguide med 10 ämnesområden/aspekter av {topic}. Varje del pedagogiskt förklarad med 
+    exempel, definitioner och beskrivningar. Tonen ska vara pedagogisk och entusiastisk. Avsluta varje 
+    del med två tomma rader.
+    Formatera som markdown utan '```'
+  agent: teaching_professor
+
+link_retrieving_task:
+  description: >
+    För varje del i studieguiden, separerad med två tomma rader, sök upp bra ytterligare resurser i 
+    form av guider, förklarande tutorials, lärares genomgångar, studieguider, fördjupningar genom att 
+    använda Perplexity AI och visa URLer och beskrivningar för varje resurs. 
+    Kom ihåg att läsaren är en student som pluggar {topic}.
+    Prioritera steg-för-steg-guider, övningar, genomgångar som lärare laddat upp, pluggresurser. 
+    Prioritera resurser på svenska. Engelska går också bra.
+    OBS! Dubbelkolla att länkarna funkar och att de leder till det de ska. Ändra inget i den befintliga 
+    texten i studieguiden.
+    Resultatet ska vara mellan 3 och 5 resurser med URL:er och beskrivningar för varje del i studieguiden.
+    Lägg till dem i slutet på varje del i studieguiden, före de två blankraderna. Ta inte bort någonting!
+  expected_output: >
+    En matig studieguide med 10 ämnesområden/aspekter av {topic}. Varje del pedagogiskt förklarad med 
+    exempel, definitioner och beskrivningar, och länkar till resurser på området. 
+    Formatera som markdown utan '```'
+  agent: link_retriever
